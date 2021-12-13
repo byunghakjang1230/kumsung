@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* CSS Document */
+@import url("https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap");
+
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light-yellow: #fcffd4;
+  --color-light-purple: #b786f5;
+  --color-purple: #55127b;
+  --color-light-gray: #f5f5f5;
+  --color-light-gray2: #dddddd;
+  --color-grey: #777777;
+  --color-grey2: #555555;
+  --color-dark-grey: #333333;
+  --color-dark-grey: #333333;
+  --color-black: #1a1f27;
+
+  /* Font size */
+  --font-x-large: 45px;
+  --font-large: 40px;
+  --font-medium: 35px;
+  --font-regular: 20px;
+  --font-small: 15px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+  --weight-light: 100;
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /* Animation */
+  --animation-duration: 300ms;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Pretendard, "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--color-grey2);
+  cursor: default;
+  letter-spacing: -0.01em;
+  font-size: 16px;
+}
+
+div,
+ul,
+li,
+dl,
+dd,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.25pt;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+p {
+  line-height: 170%;
+}

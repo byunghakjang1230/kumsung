@@ -124,15 +124,13 @@
           <li class="navbar__menu__item"><a href="#">금성문화재단</a></li>
         </ul>
       </nav>
-      <button class="all__menu" type="button">
-        <img src="~assets/images/menu_icon.svg" alt="" />
-      </button>
+      <button class="all__menu" type="button"></button>
     </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header",
-};
+  name: 'Header',
+}
 </script>

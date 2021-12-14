@@ -5,7 +5,7 @@
 }
 .main::after {
   display: block;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
@@ -134,10 +134,10 @@
 
 /*금성 소식*/
 .slick-prev:before {
-  background: url("~assets/images/main/event_left_arrow.png");
+  background: url('~assets/images/main/event_left_arrow.png');
 }
 .slick-next:before {
-  background: url("~assets/images/main/event_right_arrow.png");
+  background: url('~assets/images/main/event_right_arrow.png');
 }
 .main__con3 {
   display: flex;
@@ -246,7 +246,7 @@
 }
 
 .card .border:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -375,7 +375,7 @@
   width: 100%;
   text-align: center;
   position: relative;
-  background-image: url("~assets/images/main/con5_bg.png");
+  background-image: url('~assets/images/main/con5_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -500,6 +500,12 @@
   .main__con4 .con4__title {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .main__con4 .con4__title > div {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .main__con4 .main__description {
     order: 2;
@@ -507,6 +513,11 @@
   }
   .main__con4 .view-link {
     order: 1;
+    width: 10%;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .main__con4 .badge {
     color: #55127b;
@@ -563,4 +574,20 @@
     margin-bottom: 1.25rem;
     font-size: 18px;
   }
+
+  .news__list .card .card__body {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  video {
+    height: 100vh;
+    width: initial;
+  }
+}
+
+video {
+  width: 100%;
+  min-width: 100%;
+  display: block;
 }

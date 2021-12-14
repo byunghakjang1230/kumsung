@@ -4,9 +4,7 @@
 
     <!-- main banner -->
     <main class="main">
-      <img class="pc" src="~assets/images/main/main_slide.png" />
-      <img class="mb" src="~assets/images/main/main_slide_mb.png" />
-
+      <video src="~assets/images/main/main.mp4" loop muted autoplay></video>
       <h1>
         교육으로
         <br />
@@ -14,13 +12,18 @@
       </h1>
     </main>
 
+    <!-- <main>
+      <ArrowSlider />
+    </main> -->
+
     <!-- 사업 영역 -->
     <section class="main__con2">
       <div class="section__container2">
         <h1 class="main__title">사업영역</h1>
         <p class="main__description">
-          국내 대표 교육 브랜드 금성출판사의<br class="mb" />다양한 교육 상품을
-          만나보세요.
+          국내 대표 교육 브랜드 금성출판사의
+          <br class="mb" />
+          다양한 교육 상품을 만나보세요.
         </p>
 
         <div class="business">
@@ -37,7 +40,7 @@
             />
             <div class="card__info">
               <div>
-                <strong> 푸르넷 </strong>
+                <strong>푸르넷</strong>
                 <span>purunet</span>
               </div>
               <p>
@@ -61,7 +64,7 @@
             />
             <div class="card__info">
               <div>
-                <strong> 푸르넷 </strong>
+                <strong>푸르넷</strong>
                 <span>purunet</span>
                 <p>
                   푸르넷은 160만 누적 회원이 인정한
@@ -85,7 +88,7 @@
             />
             <div class="card__info">
               <div>
-                <strong> 푸르넷 </strong>
+                <strong>푸르넷</strong>
                 <span>purunet</span>
               </div>
               <p>
@@ -124,12 +127,14 @@
     <section class="main__con4">
       <div class="section__container2">
         <div class="con4__title">
-          <h1 class="main__title">보도 자료</h1>
-          <p class="main__description">
-            금성출판사 관련 보도자료 및
-            <br class="mb" />
-            동영상 뉴스를 보실 수 있습니다.
-          </p>
+          <div>
+            <h1 class="main__title">보도 자료</h1>
+            <p class="main__description">
+              금성출판사 관련 보도자료 및
+              <br class="mb" />
+              동영상 뉴스를 보실 수 있습니다.
+            </p>
+          </div>
           <a href="#none" class="view-link">
             <img src="~assets/images/main/next_arrow.png" alt="" />
           </a>
@@ -156,7 +161,7 @@
                 <p>
                   금성출판사, MBC창작동화대상 수상
                   <br class="mb" />
-                  단편 동화집 <누구로 변해드릴까요?> 출간
+                  단편 동화집 &lt;누구로 변해드릴까요?&gt; 출간
                 </p>
                 <span class="date">2021.06</span>
               </div>
@@ -207,12 +212,12 @@
 </template>
 
 <script>
-import ArrowSlider from "../components/slider/ArrowSlider.vue";
-import swiperSlider from "../components/slider/swiperSlider.vue";
-import Footer from "../layouts/footer/Footer.vue";
-import Header from "../layouts/header/Header.vue";
+import ArrowSlider from '../components/slider/ArrowSlider.vue'
+import swiperSlider from '../components/slider/swiperSlider.vue'
+import Footer from '../layouts/footer/Footer.vue'
+import Header from '../layouts/header/Header.vue'
 
 export default {
   components: { Footer, Header, ArrowSlider, swiperSlider },
-};
+}
 </script>
